@@ -1,0 +1,21 @@
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header__icon {
+    object-fit: contain;
+    height: 50px;
+    margin-left: 20px;
+  }
+
+.header_text {
+    text-transform: lowercase;
+}
+
+.bar{
+    background-color: blue;
+}

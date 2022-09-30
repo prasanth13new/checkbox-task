@@ -1,0 +1,40 @@
+.widget{
+    display: flex;
+    margin-top: 140px;
+}
+
+.widget_box{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 220px;
+    margin-left: 150px;
+}
+
+
+.widget_head{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+    margin-left: 17px;
+    font-size: 40px;
+    line-height: 32px;
+    text-align: left;
+}
+
+.widget_content{
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.75px;
+    font-weight: 400;
+    color: #0c0c0c;
+    text-align: left;
+    width: 500px;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+.widget_animation{
+    margin-left: -10px;
+}

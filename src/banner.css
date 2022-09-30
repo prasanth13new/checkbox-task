@@ -1,0 +1,81 @@
+.main {
+    background-color: blue;
+}
+
+.banner {
+    background-color: blue;
+    display: flex;
+}
+
+.banner_content {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    /* margin-bottom: 20px; */
+    margin-top: 90px;
+}
+
+.banner_sub {
+    color: rgb(172, 172, 169);
+    font-family: sans-serif;
+    /* font-weight: 4px; */
+    /* font-size: 1em; */
+    line-height: 1.27;
+    letter-spacing: -1px;
+    width: 600px;
+    font-size: 26px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.banner_main {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400px;
+    font-size: 2.75rem;
+    line-height: 1.27;
+    letter-spacing: -1px;
+    width: 600px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+.animation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -90px;
+    /* margin-left: 250px; */
+}
+
+.img {
+    object-fit: contain;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 14px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.logo {
+    color: aliceblue;
+}
+
+.trust {
+    display: flex;
+}
+
+.awards {
+    display: flex;
+    margin-left: 50px;
+}
